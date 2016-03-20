@@ -6,7 +6,8 @@
 
 This is a little helper to build perfect flexible and responsive squares on your website. It works with pure css, less or scss.
 
-Essentially, this thing here is nothing else then a grid system which is in shapes of squares. The reason why I made it anyway is simple: It’s a real pain to put seven squares (with a total width of 100%) in the bootstrap grid for example. **Therefore: Flexible & responsive squares!**
+Essentially, this thing here is nothing else then a grid system which is in shapes of squares. The reason why I made it anyway is simple: It’s a real pain to put seven squares (with a total width of 100%) in the bootstrap grid for example.  
+**Therefore: Flexible & responsive squares!**
 
 ## Example
 
@@ -55,7 +56,7 @@ The `position:absolute` on the content has it's right to exists. If you wouldn't
 
 To position the content in the horizontal center, just add `right: 0; left: 0;` to the `<span>`. 
 
-You want nice margins between the squares? The `.fs-content` element is the place to do this.
+You want nice margins between the squares? The `.fs-content` element is the place to do this.<br><br>
 
 **Optional:**
 
