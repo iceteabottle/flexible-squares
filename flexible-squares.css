@@ -1,0 +1,56 @@
+.fs-cell {
+  float: left;
+  position: relative;
+}
+.fs-cell .fs-content {
+  display: block;
+  position: absolute;
+}
+.fs-cell.fs-rows-12 {
+  width: 8.33333333%;
+  padding-bottom: 8.33333333%;
+}
+.fs-cell.fs-rows-11 {
+  width: 9.09090909%;
+  padding-bottom: 9.09090909%;
+}
+.fs-cell.fs-rows-10 {
+  width: 10%;
+  padding-bottom: 10%;
+}
+.fs-cell.fs-rows-9 {
+  width: 11.11111111%;
+  padding-bottom: 11.11111111%;
+}
+.fs-cell.fs-rows-8 {
+  width: 12.5%;
+  padding-bottom: 12.5%;
+}
+.fs-cell.fs-rows-7 {
+  width: 14.28571429%;
+  padding-bottom: 14.28571429%;
+}
+.fs-cell.fs-rows-6 {
+  width: 16.66666667%;
+  padding-bottom: 16.66666667%;
+}
+.fs-cell.fs-rows-5 {
+  width: 20%;
+  padding-bottom: 20%;
+}
+.fs-cell.fs-rows-4 {
+  width: 25%;
+  padding-bottom: 25%;
+}
+.fs-cell.fs-rows-3 {
+  width: 33.33333333%;
+  padding-bottom: 33.33333333%;
+}
+.fs-cell.fs-rows-2 {
+  width: 50%;
+  padding-bottom: 50%;
+}
+.fs-cell.fs-rows-1 {
+  width: 100%;
+  padding-bottom: 100%;
+}
