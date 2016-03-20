@@ -13,6 +13,8 @@ Essentially, this thing here is nothing else then a grid system which is in shap
 
 This example works with 10 rows. If you want another number of rows, just change the 10. The less file supports up to 12 rows. Feel free to add your custom number of rows to the file on your project.
 
+Also check the [fiddle](https://jsfiddle.net/jumpshoxx/pybhteu2/1/) or the `example.html` to get an idea of the usage.
+
 ```html
 <div class="fs-cell fs-rows-10">
 	<span class="fs-content">
@@ -46,7 +48,7 @@ This example works with 10 rows. If you want another number of rows, just change
 
 The grid is a really simple calculation. Since we can use the calc() function in css, it's a one-liner: `width: calc(100%/10);` To get a square out of the div you can use the `padding-bottom` property. Also a one-liner: `padding-bottom: calc(100%/10);`  
 
-**Important:** The second value in the calc() function is the grid count and must be the same on both properties!
+**Important:** The second value in the calc() function is the grid count and must be the same on the width and padding-bottom properties!
 
 - - -
 
