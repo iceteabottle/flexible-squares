@@ -1,0 +1,30 @@
+//Variables
+$columns-total: 12;
+
+//Mixins
+@mixin calc-columns($columns){
+
+  @for $i from 1 through $columns {
+    &.fs-rows-#{$i} {
+      width: calc(100%/$i);
+      padding-bottom: calc(100%/#{$i}); 
+    }
+  }
+
+}
+
+//Main SCSS
+.fs-cell {
+
+  float: left;
+  position: relative;
+
+  .fs-content {
+    display: block;
+    position: absolute;
+  }
+
+  @include calc-columns($columns-total);
+
+}
+
